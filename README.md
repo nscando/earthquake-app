@@ -21,7 +21,7 @@ Antes de comenzar, asegúrate de tener instalado lo siguiente:
 1. **Clonar el repositorio:**
 
    ```bash
-   git clone https://tu-repositorio-github.com/tu-usuario/earthquake-app.git
+   git clone https://github.com/nscando/earthquake-app.git
    cd earthquake-app/backend
    ```
 
