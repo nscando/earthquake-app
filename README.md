@@ -104,7 +104,3 @@ Si deseas contribuir al proyecto, considera clonar el repositorio y enviar pull 
 ## Licencia
 
 Este proyecto está bajo la Licencia MIT. Consulta el archivo `LICENSE` en el directorio raíz del proyecto para más detalles.
-
-```
-
-```
