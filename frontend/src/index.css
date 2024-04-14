@@ -42,19 +42,3 @@ body {
         --color-button-muted: 212, 255, 122;
     }
 }
-
-/* .bg-dark-background {
-    @apply bg-dark-background;
-}
-
-.text-dark-text {
-    @apply text-dark-text;
-}
-
-.dark .bg-dark-background {
-    @apply dark: bg-dark-background;
-}
-
-.dark .text-dark-text {
-    @apply dark: text-dark-text;
-} */

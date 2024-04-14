@@ -7,7 +7,7 @@ export const CommentForm = ({ featureId, onCommentAdded }) => {
     const [submitSuccess, setSubmitSuccess] = useState(false);
     const { isLoading, error, postData } = usePost();
 
-    // Alternar la visibilidad del formulario y resetear estados
+    // Alternar la visibilidad del formulario 
     const toggleForm = () => {
         setShowForm(!showForm);
         setSubmitSuccess(false);
@@ -51,7 +51,7 @@ export const CommentForm = ({ featureId, onCommentAdded }) => {
                     {error && <p className="text-red-500 text-xs w-full mt-2">{error}</p>}
                     {submitSuccess && <p className="text-green-500 text-xs w-full mt-2">Comment successfully submitted</p>}
                     <textarea
-                        className="flex-1 p-2 text-sm text-gray-900 bg-gray-300 dark:bg-gray-100 dark:text-white rounded-lg focus:outline-none focus:ring-2 focus:ring-primary dark:focus:ring-dark-primary"
+                        className="flex-1 p-2 text-sm text-gray-900 bg-gray-300 dark:bg-gray-100 dark:text-pink-700 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary dark:focus:ring-dark-primary"
                         rows="2"
                         placeholder="Añade un comentario..."
                         value={comment}
