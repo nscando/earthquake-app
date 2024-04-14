@@ -16,7 +16,7 @@ export const FeatureList = () => {
     if (!data || data.data.length === 0) {
         return (
             <div className="text-center mt-10">
-                <p>No features available. Please check the <a href="https://github.com/yourUsername/yourRepository" className="text-blue-500 hover:text-blue-700">GitHub repository README</a> for instructions on how to populate the database.</p>
+                <p>No features available. Please check the <a href="https://github.com/nscando/earthquake-app.git" className="text-blue-500 hover:text-blue-700">GitHub repository README</a> for instructions on how to populate the database.</p>
             </div>
         );
     }
